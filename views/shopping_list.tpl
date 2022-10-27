@@ -1,9 +1,9 @@
 <html>
 <body>
-<h2>Vehicles List</h2>
+<h2>Shopping List</h2>
 <hr/>
 <table>
-% for item in Vehicles_list:
+% for item in shopping_list:
   <tr>
     <td>{{str(item['desc'])}}</td>
     <td><a href="/edit/{{str(item['id'])}}">edit</a></td>

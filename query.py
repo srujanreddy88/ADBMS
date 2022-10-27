@@ -1,6 +1,6 @@
 import sqlite3
 
-connection = sqlite3.connect("Vehicles.db")
+connection = sqlite3.connect("shopping_list.db")
 
 cursor = connection.cursor()
 
